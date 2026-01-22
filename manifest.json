@@ -1,0 +1,55 @@
+{
+    "name": "Focus — Productivity Timer",
+    "short_name": "Focus",
+    "description": "Pomodoro timer app to boost your productivity and build focus habits",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#030303",
+    "theme_color": "#030303",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": ["productivity", "utilities"],
+    "lang": "ru",
+    "dir": "ltr",
+    "prefer_related_applications": false,
+    "related_applications": [],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Начать 25 минут",
+            "short_name": "25 мин",
+            "description": "Начать фокус-сессию на 25 минут",
+            "url": "/?duration=25",
+            "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Начать 45 минут",
+            "short_name": "45 мин",
+            "description": "Начать фокус-сессию на 45 минут",
+            "url": "/?duration=45",
+            "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "share_target": {
+        "action": "/",
+        "method": "GET",
+        "params": {
+            "title": "task",
+            "text": "task"
+        }
+    }
+}
